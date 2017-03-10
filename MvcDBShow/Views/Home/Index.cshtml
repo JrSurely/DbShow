@@ -66,7 +66,7 @@
     <ol>
         @foreach (var item in Model.TableList)
         {
-            <li>
+            <li title="@item.TabRemarks">
                 <a class="goWhere" style="text-decoration:none;" href="#diaryList_@item.TabName">@item.TabName</a>
             </li>
         }
